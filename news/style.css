@@ -1,0 +1,88 @@
+ *{
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ #container{
+        width: 90%;
+        margin: auto;
+    }
+    #topstories>div>img{
+        height: 250px;
+        width: 100%;
+    }
+    #topstories{
+        display: grid;
+        grid-template-columns: 35% 35%;
+        grid-row-gap: 50px;
+        grid-column-gap: 30px;
+        justify-content: center;
+    
+    }
+   #topstories>div {
+            translate: all 0.7s;
+            
+    }
+     #topstories>div:hover{
+         background-color: lightgray;
+         transform: scale(1.1);
+         border-radius: 5px;
+
+     }
+     #topstories>div p ,#topstories>div h3{
+         margin-left: 10px;
+     }
+    
+    h1{
+        text-align: center;
+        font-size: 50px;
+        letter-spacing: 10px;
+    }
+    #search{
+        margin: 50px 0;
+        text-align: center;
+        cursor: pointer;
+    }
+    #search>input{
+         height: 30px;
+         width: 400px;
+         border-radius: 10px;
+         padding: 5px;
+        text-align: center;
+        font-size: 15px;
+        border: 1px solid gray;
+    }
+     #search>button{
+         height: 40px;
+         width: 100px;
+         margin-left: 20px;
+      
+         border-radius: 10px;
+        
+        text-align: center;
+    }
+
+    #shownews>div>img{
+        width: 100%;
+        height: 300px;
+
+
+    }
+     #shownews>div{
+         width: 800px;
+         margin: auto;
+         margin-top: 100px;
+     }
+
+    #shownews>div>p{
+        font-size: 20px;
+        word-spacing: 5px;
+        letter-spacing: 1.5px;
+        
+    }
+     #shownews>div>h1{
+        font-size: 30px;
+        text-align: left;
+        letter-spacing: 1.2px;
+    
+        
+    }
